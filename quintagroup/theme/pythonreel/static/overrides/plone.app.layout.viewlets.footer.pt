@@ -1,6 +1,7 @@
+
 <ul class="slinks">
-     <li><a href="https://www.facebook.com/rozefilmdagen" class="slink facebook-link">Facebook</a></li>
-     <li><a href="https://twitter.com/rozefilmdagen" class="slink twitter-link">Twitter</a></li>
+     <li><a href="https://www.facebook.com/rozefilmdagen"><i  class="fa fa-facebook fa-2x"></i></a></li>
+     <li><a href="https://twitter.com/rozefilmdagen"><i  class="fa fa-twitter fa-2x"></i></a></li>
 </ul>
 <div i18n:domain="plone"
      id="portal-footer">
