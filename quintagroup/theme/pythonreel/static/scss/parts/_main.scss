@@ -1,0 +1,156 @@
+/* ==========================================================================
+     Theme styles
+     ========================================================================== */
+/*----- Plone Elements -----*/
+.documentDescription {
+  color: $mainColor;
+  font-size: 1.32em;
+  line-height: 1.4;
+  margin: 0 0 1em;
+  }
+.discreet {
+  color:#666;
+  font-size:85%;
+  }
+.visualHighlight {
+  background-color:#ffb;
+  }
+.pullquote {
+  border-left:6px solid silver;
+  clear:right;
+  color:#444;
+  float:right;
+  font-size:1.17em;
+  line-height:1.42em;
+  margin:0 1em 1.5em 2.5em;
+  padding-left:10px;
+  width:35%;
+  }
+.callout {
+  background-color:#eee;
+  border-left:1em solid #ccc;
+  padding:1em;
+  }
+.hiddenStructure {
+  background:none;
+  border:0;
+  display:block;
+  height:0.1em;
+  margin:-0.1em 0 0 -0.1em;
+  overflow:hidden;
+  padding:0;
+  position:absolute;
+  width:1px;
+  }
+.visualClear {
+  clear:both;
+  }
+
+/*
+ * TinyMCE Styles
+ */
+.mceContentBody a {
+  border: 0 !important;
+  color: $mainColor !important;
+  }
+  
+/* Image alignment classes */
+.image-left {
+  clear:left;
+  float:left;
+  margin:0.5em 1em 0.5em 0;
+  }
+.image-right {
+  clear:right;
+  float:right;
+  margin:0.5em 0 0.5em 1em;
+  }
+.image-inline {
+  float:none;
+  }
+.image-caption {
+  margin:0; 
+  }
+.newsImageContainer {
+  float:right;
+  margin:0 0 0.5em 1em;
+  }
+.newsImage {
+  
+  }
+img.tileImage {
+  float: right;
+  margin: 0 0 0.5em 0.5em;
+  }
+
+/*----- General -----*/
+#portal-top {
+  background: #FFD2F9;
+  border-bottom: 1px solid $mainColor;
+  box-shadow: 0 5px 24px rgba($mainColor, 0.21);
+  min-width: 960px;
+  }
+#portal-header-wrapper {
+  margin: auto;
+  position: relative;
+  width: 960px;
+  }
+#portal-header {
+  padding: 0 0 33px;  
+}
+#portal-header:before {
+  border: 7px solid $navColor;
+  border: 7px solid rgba($navColor, 0.75);
+  box-shadow: 0 1px rgba(darken($navColor, 10% ), 0.9);
+  content: "";
+  display: block;
+  margin: -9px 0 0;
+}
+#portal-columns-wrapper {
+  margin: auto;
+  width: 960px;
+  }
+#portal-columns {
+  margin: 0 0 1.5em;
+  }
+#portal-column-content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 24px;
+  }
+#portal-column-content.position-1\3a 4 {
+  padding-left: 24px;  
+  }
+#portal-column-one,
+#portal-column-two {
+  margin-top: 1.55em;
+  }
+
+/*
+ * Search Page
+ */
+#search-field {
+  border: 0;
+}
+.searchPage[type="text"] {
+  border: 1px solid $searchColor;
+  border: 1px solid rgba($searchColor, 0.25);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.searchPage[type="text"]:focus {
+  outline: none;
+}
+#search-results-bar a {
+  color: $secondaryColor;
+}
+#search-results-bar dd {
+  background-color: #c0c0c0;
+}
+
+.galleria-container {
+    background: none repeat scroll 0 0 transparent;
+    overflow: hidden;
+    position: relative;
+}
